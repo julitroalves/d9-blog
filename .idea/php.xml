@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/drupal-data/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/pear/pear-core-minimal" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/pear/archive_tar" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/pear/pear_exception" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/pear/console_getopt" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/laminas/laminas-stdlib" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/laminas/laminas-feed" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/drupal/core-vendor-hardening" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/composer" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/drupal/core-project-message" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/drupal/core-composer-scaffold" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony-cmf/routing" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/typo3/phar-stream-wrapper" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/stack/builder" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/deprecation-contracts" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+</project>
