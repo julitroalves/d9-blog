@@ -1,0 +1,23 @@
+name: Imadev
+type: theme
+description: 'Small but useful theme for developers'
+core_version_requirement: ^8.9 || ^9 || ^10
+base theme: classy
+
+libraries:
+  - imadev/global-styling
+
+# Regions
+regions:
+  branding: 'Branding'
+  navigation: 'Navigation'
+  search: 'Search'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  right_sidebar: 'Right Sidebar'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  footer_bottom: 'Footer Bottom'
+

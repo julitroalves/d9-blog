@@ -1,0 +1,60 @@
+body {}
+
+.gap {
+  gap: 20px;
+}
+
+.page-wrapper {
+  display: grid;
+  grid-template:
+    'header header header' 100px
+    'featured featured featured'
+    'main main main'
+    'footer footer footer'
+  ;
+  padding: 20px;
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header.region {
+  padding: 5px;
+}
+
+.header.region-branding {
+  flex: 0 1 50%;
+}
+
+
+.header.region-navigation {
+  flex: 0 1 50%;
+}
+
+
+.header.region-search {
+  flex: 0 1 30%;
+}
+
+.featured {
+  grid-area: featured;
+}
+
+.main {
+  grid-area: main;
+  display: flex;
+}
+
+.main .content {
+  flex: 0 1 70%;
+}
+.main .right--sidebar {
+  flex: 0 1 30%;
+}
+
+.footer {
+  grid-area: footer;
+}

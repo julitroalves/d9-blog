@@ -72,3 +72,8 @@ RUN set -eux; \
 	rm -rf "$COMPOSER_HOME"
 
 ENV PATH=${PATH}:/var/www/html/vendor/bin
+
+# Install Drupal Console
+RUN composer require drupal/console:~1.0 \
+    --prefer-dist \
+    --optimize-autoloader
