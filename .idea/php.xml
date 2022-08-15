@@ -62,6 +62,13 @@
       <path value="$PROJECT_DIR$/drupal-data/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/mime" />
       <path value="$PROJECT_DIR$/drupal-data/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/commerceguys/addressing" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/drupal-data/vendor/doctrine/persistence" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">

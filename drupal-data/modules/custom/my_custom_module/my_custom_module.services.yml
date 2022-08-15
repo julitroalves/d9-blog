@@ -1,0 +1,4 @@
+services:
+  my_custom_module.contactrepository:
+    class: Drupal\my_custom_module\Repository\ContactRepository
+    arguments: ['@database', '@string_translation', '@messenger']

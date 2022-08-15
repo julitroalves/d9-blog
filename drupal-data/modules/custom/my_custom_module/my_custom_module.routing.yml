@@ -1,0 +1,7 @@
+my_custom_module.contact_list:
+  path: '/contact-list'
+  defaults:
+    _title: 'Lista de Contatos'
+    _controller: '\Drupal\my_custom_module\Controller\MyCustomController::contactList'
+  requirements:
+    _user_is_logged_in: "true"

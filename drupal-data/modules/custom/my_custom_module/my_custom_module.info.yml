@@ -1,0 +1,5 @@
+name: My Custom Module
+type: module
+description: 'This is just a custom module to learn dbng, forms, phpunit, rooting.'
+package: Custom
+core_version_requirement: ^8.7.7 || ^9

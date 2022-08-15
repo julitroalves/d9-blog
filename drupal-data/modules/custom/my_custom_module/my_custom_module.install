@@ -1,0 +1,78 @@
+<?php
+
+/**
+ * Implements hook_install
+ */
+function my_custom_module_install() {
+  $entries = [
+    [
+      'name' => 'John',
+      'email' => 'john@gmail.com',
+      'telephone' => '5585987678900',
+      'age' => 18,
+    ],
+    [
+      'name' => 'Péricles',
+      'email' => 'pericles@yahoo.com',
+      'telephone' => '5585983678900',
+      'age' => 25,
+    ]
+  ];
+
+  $connection = \Drupal::database();
+  foreach ($entries as $entry) {
+    $connection->insert('my_custom_module_contacts')->fields($entry)->execute();
+  }
+}
+
+/**
+ * Implements hook_schema
+ */
+function my_custom_module_schema(): array {
+  $schema['my_custom_module_contacts'] = [
+    'description' => 'Contacts table',
+    'fields' => [
+      'id' => [
+        'type' => 'serial',
+        'not null' => TRUE,
+        'description' => 'Primary Key: Unique person ID.',
+      ],
+      'name' => [
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Name of the person.',
+      ],
+      'email' => [
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Email of the person.',
+      ],
+      'telephone' => [
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Email of the person.',
+      ],
+      'age' => [
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 0,
+        'size' => 'tiny',
+        'description' => 'The age of the person in years.',
+      ],
+    ],
+    'primary key' => ['id'],
+    'indexes' => [
+      'name' => ['name'],
+      'email' => ['email'],
+      'age' => ['age'],
+    ],
+  ];
+
+  return $schema;
+}
